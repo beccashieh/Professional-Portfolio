@@ -4,6 +4,7 @@
     <!--Import Google Icon Font-->
     <link href="./assets/css/reset.css" rel="stylesheet" />
     <link href="./assets/css/style.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa|Josefin+Sans|Tajawal" rel="stylesheet">
     <link
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
@@ -55,21 +56,24 @@
       </div>
     </nav>
 
-    <!-- Page Layout here -->
-    <div class="col s3">
-      <!--Side-nav-->
+    <!--Side-nav-->
+    <div class="col s2">
       <ul id="slide-out" class="sidenav">
         <li>
           <div class="user-view">
-            <div class="nav-background">
-              <img src="/assets/images/nav-background.jpg" />
+            <div>
+              <img
+                class="nav-background"
+                src="/assets/images/nav-background.jpg"
+                height="250px"
+                width="250px"
+              />
             </div>
-            <a href="#user">
-              <img class="circle" src="/assets/images/becca.jpg" />
-            </a>
-            <h2 class="white-text name">Becca Shieh</h2>
+          </div>
+          <div id="owner-contact">
+            <h4 class="white-text name">Becca Shieh</h4>
             <a href="#email">
-              <span class="white-text email">rebeccasshieh@gmail.com</span>
+              <span class="black-text email">rebeccasshieh@gmail.com</span>
             </a>
           </div>
         </li>
@@ -87,20 +91,27 @@
         ><i class="material-icons">menu</i></a
       >
     </div>
+
     <div class="portfolio-display row">
-        <div class="col s2"></div>
+      <div class="col s2"></div>
       <div class="col s9">
-        <div class="card col s3">
+        <div class="card col s12 m6 l3">
           <div class="card-image waves-effect waves-block waves-light">
             <img class="activator" src="./assets/images/card1.jpg" />
           </div>
           <div class="card-content">
             <span class="card-title activator grey-text text-darken-4"
-              >Crystal Collector<i class="material-icons center"
+              ><strong>Crystal Collector</strong><i class="material-icons center"
                 >more_vert</i
               ></span
             >
-            <p><a href="https://beccashieh.github.io/CrystalGame/">Check it out!</a></p>
+            <p>
+              <a
+                class="card-links"
+                href="https://beccashieh.github.io/CrystalGame/"
+                >Check it out!</a
+              >
+            </p>
           </div>
           <div class="card-reveal">
             <span class="card-title grey-text text-darken-4"
@@ -114,17 +125,23 @@
             </p>
           </div>
         </div>
-        <div class="card col s3">
+        <div class="card col s12 m6 l3">
           <div class="card-image waves-effect waves-block waves-light">
             <img class="activator" src="./assets/images/card2.jpg" />
           </div>
           <div class="card-content">
             <span class="card-title activator grey-text text-darken-4"
-              >Letter Guessing Game<i class="material-icons center"
+              ><strong>Letter Guessing Game</strong><i class="material-icons center"
                 >more_vert</i
               ></span
             >
-            <p><a href="https://beccashieh.github.io/Psychic-Game/">Check it out!</a></p>
+            <p>
+              <a
+                class="card-links"
+                href="https://beccashieh.github.io/Psychic-Game/"
+                >Check it out!</a
+              >
+            </p>
           </div>
           <div class="card-reveal">
             <span class="card-title grey-text text-darken-4"
@@ -139,15 +156,21 @@
             </p>
           </div>
         </div>
-        <div class="card col s3">
+        <div class="card col s12 m6 l3">
           <div class="card-image waves-effect waves-block waves-light">
             <img class="activator" src="./assets/images/card3.jpg" />
           </div>
           <div class="card-content">
             <span class="card-title activator grey-text text-darken-4"
-              >Trivia Game<i class="material-icons center">more_vert</i></span
+              ><strong>Trivia Game</strong><i class="material-icons center">more_vert</i></span
             >
-            <p><a href="https://beccashieh.github.io/TriviaGame/">Check it out!</a></p>
+            <p>
+              <a
+                class="card-links"
+                href="https://beccashieh.github.io/TriviaGame/"
+                >Check it out!</a
+              >
+            </p>
           </div>
           <div class="card-reveal">
             <span class="card-title grey-text text-darken-4"
@@ -160,15 +183,19 @@
             </p>
           </div>
         </div>
-        <div class="card col s3">
+        <div class="card col s12 m6 l3">
           <div class="card-image waves-effect waves-block waves-light">
             <img class="activator" src="./assets/images/card4.jpg" />
           </div>
           <div class="card-content">
             <span class="card-title activator grey-text text-darken-4"
-              >Fun with Gifs<i class="material-icons center">more_vert</i></span
+              ><strong>Fun with Gifs</strong><i class="material-icons center">more_vert</i></span
             >
-            <p><a href="https://beccashieh.github.io/Giphy/">Check it out!</a></p>
+            <p>
+              <a class="card-links" href="https://beccashieh.github.io/Giphy/"
+                >Check it out!</a
+              >
+            </p>
           </div>
           <div class="card-reveal">
             <span class="card-title grey-text text-darken-4"
@@ -181,15 +208,19 @@
             </p>
           </div>
         </div>
-        <div class="card col s3">
+        <div class="card col s12 m6 l3">
           <div class="card-image waves-effect waves-block waves-light">
             <img class="activator" src="./assets/images/card5.jpg" />
           </div>
           <div class="card-content">
             <span class="card-title activator grey-text text-darken-4"
-              >FOMO no mo<i class="material-icons center">more_vert</i></span
+              ><strong>FOMO no mo</strong><i class="material-icons center">more_vert</i></span
             >
-            <p><a href="http://fomonomo.site/">Check it out!</a></p>
+            <p>
+              <a class="card-links" href="http://fomonomo.site/"
+                >Check it out!</a
+              >
+            </p>
           </div>
           <div class="card-reveal">
             <span class="card-title grey-text text-darken-4"

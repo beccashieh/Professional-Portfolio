@@ -1,50 +1,116 @@
 body {
-    background-image: url("../images/background.jpg");
+  background-image: url("../images/background.jpg");
 }
 
-h2 {
-    color: white;
+.brand-logo {
+    font-family: 'Josefin Sans', sans-serif;
     text-shadow: 2px 2px #383737;
+}
+
+.nav-wrapper {
+    background-color: #0521c5
+}
+
+h2,
+h4 {
+  color: white;
+  text-shadow: 2px 2px #383737;
+  font-family: 'Comfortaa', cursive;
 
 }
 
 .sidenav {
-    background-color: rgb(196, 190, 190, .8)!important;
-    border: 2px solid white;
-  }
+  background-color: rgb(196, 190, 190, 0.8) !important;
+  border: 2px solid white;
+}
+
+.sidenav-trigger {
+    background-color: white;
+}
+
+#about-me {
+  border-radius: 10px;
+  line-height: 1.5;
+
+}
 
 .form {
-    background-color: rgb(196, 190, 190, .8);
-    border: 2px solid white;
-    margin: auto,
+  background-color: rgb(196, 190, 190, 0.8);
+  border: 2px solid white;
+  margin: auto;
+  border-radius: 10px;
+  font-family: 'Tajawal', sans-serif;
 }
 
 .card {
-    margin: 20px!important;
-    padding: 10px;
-    height: 420px;
-    max-width: 100%;
-    border: 2px solid white;
-    background-color: rgb(196, 190, 190, .8)!important;
+  margin: 20px !important;
+  padding: 10px;
+  height: 450px;
+  max-width: 100%;
+  border: 2px solid white;
+  background-color: rgb(196, 190, 190, 0.8) !important;
+  border-radius: 10px!important;
+  font-family: 'Tajawal', sans-serif;
 }
 
 .activator {
-    height: 180px;
-    width: 100px;
-    padding: 10px;
+  height: 180px;
+  width: 100px;
+  padding: 10px;
 }
 
 .card-title {
-    text-align: justify;
+  text-align: left;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.card-links {
+  color: white !important;
+  text-shadow: 2px 2px #383737;
+  font-size: large;
+}
+
+p {
+    line-height: 1.5;
+    padding: 10px;
+    font-family: 'Tajawal', sans-serif;
 }
 
 a {
-    color: white!important;
-    text-shadow: 2px 2px #383737;
+    font-family: 'Tajawal', sans-serif;
 }
 
 .nav-background {
-    z-index: 0;
+  top: 0;
+  left: 0;
+  padding: 0 !important;
+  width: 100%;
 }
 
+.user-view {
+  padding: 0 !important;
+  margin: 0 !important;
+}
 
+#owner-contact {
+  margin: 20px;
+}
+
+/* label focus color */
+.input-field input[type="text"]:focus + label,
+.materialize-textarea:focus:not([readonly]) + label,
+.input-field input[type="tel"]:focus + label {
+  color: #444950 !important;
+}
+
+.material-icons {
+  color: black !important;
+}
+
+/* label underline focus color */
+.input-field input[type="text"]:focus,
+.materialize-textarea:focus:not([readonly]),
+.input-field input[type="tel"]:focus {
+  border-bottom: 1px solid #444950 !important;
+  box-shadow: 0 1px 0 0 #444950 !important;
+}
