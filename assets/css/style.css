@@ -1,0 +1,50 @@
+body {
+    background-image: url("../images/background.jpg");
+}
+
+h2 {
+    color: white;
+    text-shadow: 2px 2px #383737;
+
+}
+
+.sidenav {
+    background-color: rgb(196, 190, 190, .8)!important;
+    border: 2px solid white;
+  }
+
+.form {
+    background-color: rgb(196, 190, 190, .8);
+    border: 2px solid white;
+    margin: auto,
+}
+
+.card {
+    margin: 20px!important;
+    padding: 10px;
+    height: 420px;
+    max-width: 100%;
+    border: 2px solid white;
+    background-color: rgb(196, 190, 190, .8)!important;
+}
+
+.activator {
+    height: 180px;
+    width: 100px;
+    padding: 10px;
+}
+
+.card-title {
+    text-align: justify;
+}
+
+a {
+    color: white!important;
+    text-shadow: 2px 2px #383737;
+}
+
+.nav-background {
+    z-index: 0;
+}
+
+
