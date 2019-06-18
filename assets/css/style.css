@@ -1,27 +1,36 @@
 body {
   background-image: url("../images/background.jpg");
+  background-size: cover; 
+  background-repeat: repeat;
+  font-family: 'Chivo', sans-serif;
+  background-attachment: fixed;
 }
 
-.brand-logo {
-    font-family: 'Josefin Sans', sans-serif;
+#logo {
+  font-family: 'Luckiest Guy', cursive;
     text-shadow: 2px 2px #383737;
 }
 
 .nav-wrapper {
-    background-color: #0521c5
+    background-color: #0521c5;
+    z-index: 0;
 }
 
 h2,
 h4 {
   color: white;
   text-shadow: 2px 2px #383737;
-  font-family: 'Comfortaa', cursive;
-
+  font-family: 'Luckiest Guy', cursive;
 }
 
 .sidenav {
   background-color: rgb(196, 190, 190, 0.8) !important;
   border: 2px solid white;
+  z-index: 1;
+}
+
+.sidenav-trigger {
+  background-color: rgb(196, 190, 190, 0.8);
 }
 
 
@@ -36,7 +45,7 @@ h4 {
   border: 2px solid white;
   margin: auto;
   border-radius: 10px;
-  font-family: 'Tajawal', sans-serif;
+  font-family: 'Chivo', sans-serif;
 }
 
 .card {
@@ -47,7 +56,7 @@ h4 {
   border: 2px solid white;
   background-color: rgb(196, 190, 190, 0.8) !important;
   border-radius: 10px!important;
-  font-family: 'Tajawal', sans-serif;
+  font-family: 'Chivo', sans-serif;
 }
 
 .activator {
@@ -58,7 +67,7 @@ h4 {
 
 .card-title {
   text-align: left;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Luckiest Guy', cursive;
 }
 
 .card-links {
@@ -70,11 +79,11 @@ h4 {
 p {
     line-height: 1.5;
     padding: 10px;
-    font-family: 'Tajawal', sans-serif;
+    font-family: 'Chivo', sans-serif;
 }
 
 a {
-    font-family: 'Tajawal', sans-serif;
+  font-family: 'Chivo', sans-serif;
 }
 
 .nav-background {
@@ -92,6 +101,11 @@ a {
 #owner-contact {
   margin: 20px;
 }
+
+label {
+  color: black !important;
+}
+
 
 /* label focus color */
 .input-field input[type="text"]:focus + label,

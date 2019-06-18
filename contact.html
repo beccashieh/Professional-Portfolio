@@ -4,7 +4,8 @@
     <!--Import Google Icon Font-->
     <link href="./assets/css/reset.css" rel="stylesheet" />
     <link href="./assets/css/style.css" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css?family=Comfortaa|Josefin+Sans|Tajawal" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Chivo|Luckiest+Guy&display=swap" rel="stylesheet">
+
     <link
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
@@ -25,76 +26,77 @@
 
   <body>
     <!-- Navbar goes here -->
-    <nav>
-      <div class="nav-wrapper">
-        <a href="#" class="brand-logo center">Becca Shieh</a>
-        <ul id="nav-mobile" class="right hide-on-med-and-down">
+    <div>
+      <nav>
+        <div class="nav-wrapper">
+          <a href="#" class="brand-logo center" id="logo">Becca Shieh</a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li>
+              <a href="./index.html"
+                ><i class="small material-icons" style="display: inline-block"
+                  >face</i
+                >About</a
+              >
+            </li>
+            <li>
+              <a href="./portfolio.html"
+                ><i class="small material-icons" style="display: inline-block"
+                  >apps</i
+                >Portfolio</a
+              >
+            </li>
+            <li>
+              <a href="./contact.html"
+                ><i
+                  class="small material-icons style="
+                  style="display: inline-block"
+                  >mail_outline</i
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!--Side-nav-->
+      <div class="col s2">
+        <ul id="slide-out" class="sidenav">
           <li>
-            <a href="./index.html"
-              ><i class="small material-icons" style="display: inline-block"
-                >face</i
-              >About</a
-            >
+            <div class="user-view">
+              <div>
+                <img
+                  class="nav-background"
+                  src="./assets/images/nav-background.jpg"
+                  height="250px"
+                  width="250px"
+                />
+              </div>
+            </div>
+            <div id="owner-contact">
+              <h4 class="white-text name">Becca Shieh</h4>
+              <a href="#email">
+                <span class="black-text email">rebeccasshieh@gmail.com</span>
+              </a>
+              <br />
+              <a href="https://www.linkedin.com/in/rebecca-shieh-22a960125/">
+                <span class="black-text linkedIn">LinkedIn Profile</span>
+              </a>
+              <br />
+            </div>
           </li>
           <li>
-            <a href="./portfolio.html"
-              ><i class="small material-icons" style="display: inline-block"
-                >apps</i
-              >Portfolio</a
-            >
+            <a href="./index.html">About</a>
           </li>
           <li>
-            <a href="./contact.html"
-              ><i
-                class="small material-icons style="
-                style="display: inline-block"
-                >mail_outline</i
-              >Contact</a
-            >
+            <a href="./portfolio.html">Portfolio</a>
+          </li>
+          <li>
+            <a href="./contact.html">Contact</a>
           </li>
         </ul>
+        <a href="#" data-target="slide-out" class="sidenav-trigger"
+          ><i class="material-icons">menu</i></a
+        >
       </div>
-    </nav>
-
-    <!--Side-nav-->
-    <div class="col s2">
-      <ul id="slide-out" class="sidenav">
-        <li>
-          <div class="user-view">
-            <div>
-              <img
-                class="nav-background"
-                src="./assets/images/nav-background.jpg"
-                height="250px"
-                width="250px"
-              />
-            </div>
-          </div>
-          <div id="owner-contact">
-            <h4 class="white-text name">Becca Shieh</h4>
-            <a href="#email">
-              <span class="black-text email">rebeccasshieh@gmail.com</span>
-            </a>
-            <br>
-            <a href="https://www.linkedin.com/in/rebecca-shieh-22a960125/">
-              <span class="black-text linkedIn">LinkedIn Profile</span>
-            </a>
-            <br>
-          </div>
-        </li>
-        <li>
-          <a href="./index.html">About</a>
-        </li>
-        <li>
-          <a href="./portfolio.html">Portfolio</a>
-        </li>
-        <li>
-          <a href="./contact.html">Contact</a>
-        </li>
-      </ul>
-      <a href="#" data-target="slide-out" class="sidenav-trigger"
-        ><i class="material-icons">menu</i></a
-      >
     </div>
 
     <h2 style="text-align: center">Contact Information</h2>
