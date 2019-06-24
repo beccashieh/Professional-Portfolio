@@ -29,75 +29,79 @@
   <body>
     <!-- Navbar goes here -->
     <nav>
-      <div class="nav-wrapper">
-        <a href="#" class="brand-logo center" id="logo">Becca Shieh</a>
-        <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <div class="nav-wrapper">
+          <a href="#" class="brand-logo center" id="logo">Becca Shieh</a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li>
+              <a href="./index.html"
+                ><i class="small material-icons" style="display: inline-block"
+                  >face</i
+                >About</a
+              >
+            </li>
+            <li>
+              <a href="./portfolio.html"
+                ><i class="small material-icons" style="display: inline-block"
+                  >apps</i
+                >Portfolio</a
+              >
+            </li>
+            <li>
+              <a href="./contact.html"
+                ><i
+                  class="small material-icons style="
+                  style="display: inline-block"
+                  >mail_outline</i
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="side-nav-bar col s2">
+        <!--Side-nav-->
+        <ul id="slide-out" class="sidenav">
           <li>
-            <a href="./index.html"
-              ><i class="small material-icons" style="display: inline-block"
-                >face</i
-              >About</a
-            >
+            <div class="user-view">
+              <div>
+                <img
+                  class="nav-background"
+                  src="./assets/images/nav-background.jpg"
+                  height="270px"
+                  width="300px"
+                />
+              </div>
+            </div>
+            <div id="owner-contact">
+              <h4 class="white-text name">Becca Shieh</h4>
+              <a href="#email">
+                <span class="black-text email">rebeccasshieh@gmail.com</span>
+              </a>
+              <br>
+              <a href="www.linkedin.com/in/becca-shieh">
+                <span class="black-text linkedIn">LinkedIn Profile</span>
+              </a>
+              <br>
+              <a href="https://github.com/beccashieh">
+                <span class="black-text linkedIn">GitHub Profile</span>
+              </a>
+              <br>
+            </div>
           </li>
           <li>
-            <a href="./portfolio.html"
-              ><i class="small material-icons" style="display: inline-block"
-                >apps</i
-              >Portfolio</a
-            >
+            <a href="./index.html">About</a>
           </li>
           <li>
-            <a href="./contact.html"
-              ><i
-                class="small material-icons style="
-                style="display: inline-block"
-                >mail_outline</i
-              >Contact</a
-            >
+            <a href="./portfolio.html">Portfolio</a>
+          </li>
+          <li>
+            <a href="./contact.html">Contact</a>
           </li>
         </ul>
+        <a href="#" data-target="slide-out" class="sidenav-trigger"
+          ><i class="material-icons">menu</i></a
+        >
       </div>
-    </nav>
-
-    <!--Side-nav-->
-    <div class="col s2">
-      <ul id="slide-out" class="sidenav">
-        <li>
-          <div class="user-view">
-            <div>
-              <img
-                class="nav-background"
-                src="./assets/images/nav-background.jpg"
-                height="250px"
-                width="250px"
-              />
-            </div>
-          </div>
-          <div id="owner-contact">
-            <h4 class="white-text name">Becca Shieh</h4>
-            <a href="#email">
-              <span class="black-text email">rebeccasshieh@gmail.com</span>
-            </a>
-            <br />
-            <a href="https://www.linkedin.com/in/rebecca-shieh-22a960125/">
-              <span class="black-text linkedIn">LinkedIn Profile</span>
-            </a>
-            <br />
-          </div>
-        </li>
-        <li>
-          <a href="./index.html">About</a>
-        </li>
-        <li>
-          <a href="./portfolio.html">Portfolio</a>
-        </li>
-        <li>
-          <a href="./contact.html">Contact</a>
-        </li>
-      </ul>
-      <a href="#" data-target="slide-out" class="sidenav-trigger"
-        ><i class="material-icons">menu</i></a
-      >
     </div>
 
     <div class="portfolio-display row">
@@ -105,7 +109,7 @@
       <div class="col s9">
         <div class="card col s12 m6 l3">
           <div class="card-image waves-effect waves-block waves-light">
-            <img class="activator" src="./assets/images/card1.jpg" />
+            <img class="activator" src="./assets/images/crystals.png" />
           </div>
           <div class="card-content">
             <span class="card-title activator grey-text text-darken-4"
@@ -139,7 +143,7 @@
         </div>
         <div class="card col s12 m6 l3">
           <div class="card-image waves-effect waves-block waves-light">
-            <img class="activator" src="./assets/images/card2.jpg" />
+            <img class="activator" src="./assets/images/letter-guess.PNG" />
           </div>
           <div class="card-content">
             <span class="card-title activator grey-text text-darken-4"
@@ -174,7 +178,7 @@
         </div>
         <div class="card col s12 m6 l3">
           <div class="card-image waves-effect waves-block waves-light">
-            <img class="activator" src="./assets/images/card3.jpg" />
+            <img class="activator" src="./assets/images/trivia.PNG" />
           </div>
           <div class="card-content">
             <span class="card-title activator grey-text text-darken-4"
@@ -207,7 +211,7 @@
         </div>
         <div class="card col s12 m6 l3">
           <div class="card-image waves-effect waves-block waves-light">
-            <img class="activator" src="./assets/images/card4.jpg" />
+            <img class="activator" src="./assets/images/giphy.PNG" />
           </div>
           <div class="card-content">
             <span class="card-title activator grey-text text-darken-4"
@@ -236,7 +240,7 @@
         </div>
         <div class="card col s12 m6 l3">
           <div class="card-image waves-effect waves-block waves-light">
-            <img class="activator" src="./assets/images/card10.jpg" />
+            <img class="activator" src="./assets/images/whats4dinner.PNG" />
           </div>
           <div class="card-content">
             <span class="card-title activator grey-text text-darken-4"
@@ -276,7 +280,7 @@
         </div>
         <div class="card col s12 m6 l3">
           <div class="card-image waves-effect waves-block waves-light">
-            <img class="activator" src="./assets/images/card5.jpg" />
+            <img class="activator" src="./assets/images/fomo.PNG" />
           </div>
           <div class="card-content">
             <span class="card-title activator grey-text text-darken-4"
@@ -308,7 +312,7 @@
         </div>
         <div class="card col s12 m6 l3">
           <div class="card-image waves-effect waves-block waves-light">
-            <img class="activator" src="./assets/images/card6.jpg" />
+            <img class="activator" src="./assets/images/liri.PNG" />
           </div>
           <div class="card-content">
             <span class="card-title activator grey-text text-darken-4"
@@ -341,7 +345,7 @@
         </div>
         <div class="card col s12 m6 l3">
           <div class="card-image waves-effect waves-block waves-light">
-            <img class="activator" src="./assets/images/card7.jpg" />
+            <img class="activator" src="./assets/images/word-guess.PNG" />
           </div>
           <div class="card-content">
             <span class="card-title activator grey-text text-darken-4"
@@ -374,7 +378,7 @@
         </div>
         <div class="card col s12 m6 l3">
           <div class="card-image waves-effect waves-block waves-light">
-            <img class="activator" src="./assets/images/card8.jpg" />
+            <img class="activator" src="./assets/images/bamazon.PNG" />
           </div>
           <div class="card-content">
             <span class="card-title activator grey-text text-darken-4"
@@ -405,7 +409,7 @@
         </div>
         <div class="card col s12 m6 l3">
           <div class="card-image waves-effect waves-block waves-light">
-            <img class="activator" src="./assets/images/card9.jpg" />
+            <img class="activator" src="./assets/images/friend-finder.PNG" />
           </div>
           <div class="card-content">
             <span class="card-title activator grey-text text-darken-4"
@@ -438,7 +442,7 @@
         </div>
         <div class="card col s12 m6 l3">
           <div class="card-image waves-effect waves-block waves-light">
-            <img class="activator" src="./assets/images/card10.jpg" />
+            <img class="activator" src="./assets/images/burger.PNG" />
           </div>
           <div class="card-content">
             <span class="card-title activator grey-text text-darken-4"
