@@ -13,8 +13,12 @@ body {
 }
 
 .nav-wrapper {
-    background-color: #0521c5;
-    z-index: 0;
+    background-color: rgba(32, 32, 46, 0.8) !important;
+    /*z-index: 0;*/
+}
+
+.nav-wrapper a:hover {
+  background-color: rgba(128, 128, 129, 0.8) !important;
 }
 
 h2,
