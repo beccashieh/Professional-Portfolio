@@ -1,14 +1,15 @@
 body {
-  background-image: url("../images/background.jpg");
+  background-image: url("../images/keyboard.jpg");
   background-size: cover; 
   background-repeat: repeat;
-  font-family: 'Chivo', sans-serif;
+  background-color: lightgray;
+  font-family: 'Nunito Sans', sans-serif;
   background-attachment: fixed;
 }
 
 #logo {
-  font-family: 'Luckiest Guy', cursive;
-    text-shadow: 2px 2px #383737;
+  font-family: 'Montserrat', sans-serif;
+  text-shadow: 2px 2px #383737;
 }
 
 .nav-wrapper {
@@ -18,9 +19,9 @@ body {
 
 h2,
 h4 {
-  color: white;
+  color: rgb(105, 103, 103);
   text-shadow: 2px 2px #383737;
-  font-family: 'Luckiest Guy', cursive;
+  font-family: 'Montserrat', sans-serif;
 }
 
 i {
@@ -81,23 +82,23 @@ i {
 
 .card-title {
   text-align: left;
-  font-family: 'Luckiest Guy', cursive;
+  font-family: 'Nunito Sans', sans-serif;
 }
 
 .card-links {
-  color: white !important;
-  text-shadow: 2px 2px #383737;
+  color: rgb(73, 72, 72);
+  /*text-shadow: 2px 2px #383737;*/
   font-size: large;
 }
 
 p {
     line-height: 1.5;
     padding: 10px;
-    font-family: 'Chivo', sans-serif;
-}
+    font-family: 'Nunito Sans', sans-serif;
+  }
 
 a {
-  font-family: 'Chivo', sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
 }
 
 .nav-background {
